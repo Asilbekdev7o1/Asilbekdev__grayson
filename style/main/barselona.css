@@ -1,0 +1,37 @@
+@import url(fonts.css);
+
+
+.barselona {
+    margin-top: 48px;
+    margin-bottom: 72px;
+}
+
+.barselona-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barselona-photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barselona-info__title {
+    margin-top: 52px;
+    color: rgb(0, 0, 0);
+    font-family: 'DP';
+    font-size: 50px;
+    line-height: 67px;
+}
+
+.barselona-info__text {
+    margin-top: 18px;
+    color: rgb(102, 102, 102);
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 496px;
+    width: 100%;
+    text-align: center;
+}

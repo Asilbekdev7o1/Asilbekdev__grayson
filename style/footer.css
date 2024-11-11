@@ -1,0 +1,87 @@
+@import url(fonts.css);
+
+.footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background: black;
+}
+
+.footer-group {
+    display: flex;
+    
+}
+
+.footer-group__title {
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.footer-list__link {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-link__icon {
+    margin-right: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items:sentr;
+
+}
+
+
+
+    .footer-form__label {
+        display: flex;
+
+    }
+
+
+    .footer-group__email {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 10px;
+        max-width: 200px;
+        width: 100%;
+    }
+
+
+    .footer-info__span {
+        color: white;
+        background: rgb(65, 162, 142);
+        padding-top: 12px;
+        padding-bottom: 13px;
+        padding-left: 10px;
+        padding-right: 9px;
+
+
+    }
+
+.footer-group__text {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 285px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 33px;
+    margin-left: 25px;
+}
+.footer-icon:nth-of-type(1) {
+    margin: 0;
+}
+
+
+
+ 
+        
+    

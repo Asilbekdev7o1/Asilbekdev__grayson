@@ -1,0 +1,43 @@
+@import url(../fonts.css);
+
+.project {
+    position: relative;
+    height: 404px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+}
+
+.project-photo {
+    position: absolute;
+    z-index: -1;
+}
+
+.project-info__top-title {
+    color: rgb(255, 255, 255);
+    font-family: 'DP';
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.project-info__title {
+    color: rgb(255, 255, 255);
+    font-family: 'DP';
+    font-size: 50px;
+    line-height: 67px;
+}
+
+.project-info__btn {
+    color: rgb(0, 0, 0);
+    font-family: 'DP';
+    font-size: 12px;
+    line-height: 16px;
+    background: rgb(255, 255, 255);
+    padding: 23px 42px;
+    width: max-content;
+}
